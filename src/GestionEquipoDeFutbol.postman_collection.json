@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "807e2353-7806-4d38-b7b9-6ddb585d7d4b",
+		"name": "GestionEquipoDeFutbol",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42158136"
+	},
+	"item": [
+		{
+			"name": "ObtenerTodosLosJugadores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/jugador",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jugador"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerTodosLosPartidos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/partido",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"partido"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerTodosLosEntrenadores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/entrenador",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"entrenador"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerTodosLosEquipos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/equipo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"equipo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerTodasLasEstadisticasDeJugadores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/estadisticasjugador",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"estadisticasjugador"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerResultadosDePartidos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/partido/resultados",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"partido",
+						"resultados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerJugadoresConMasDeXGoles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/jugador/goles/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jugador",
+						"goles",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JugadoresDeUnEquipoEspecifico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/jugador/equipo/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jugador",
+						"equipo",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerTotalGolesPorEquipo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/estadisticasjugador/goles-equipo/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"estadisticasjugador",
+						"goles-equipo",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
